@@ -251,7 +251,7 @@ function Aplikacja() {
     useEffect(() => {
 		localStorage.setItem('table', JSON.stringify(table));
         localStorage.setItem('category', JSON.stringify(category));
-	}, [table, category]);
+	}, [table, category, buttonDelete]);
 
     //oblicza rozmiar oraz cenę dla poszczególnych lategorii
     useEffect(() => {
